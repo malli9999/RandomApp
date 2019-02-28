@@ -15,6 +15,8 @@
 		3FEAA9DE2227484700FC87BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEAA9DC2227484700FC87BD /* LaunchScreen.storyboard */; };
 		3FEAA9E92227484700FC87BD /* RandomAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEAA9E82227484700FC87BD /* RandomAppTests.swift */; };
 		3FEAA9F42227484700FC87BD /* RandomAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEAA9F32227484700FC87BD /* RandomAppUITests.swift */; };
+		3FEAAA08222779F600FC87BD /* Guesser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEAAA07222779F600FC87BD /* Guesser.swift */; };
+		3FEAAA0A222780D000FC87BD /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEAAA09222780D000FC87BD /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3FEAA9EF2227484700FC87BD /* RandomAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FEAA9F32227484700FC87BD /* RandomAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomAppUITests.swift; sourceTree = "<group>"; };
 		3FEAA9F52227484700FC87BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FEAAA07222779F600FC87BD /* Guesser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guesser.swift; sourceTree = "<group>"; };
+		3FEAAA09222780D000FC87BD /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		3FEAA9C52227484600FC87BD = {
 			isa = PBXGroup;
 			children = (
+				3FEAAA09222780D000FC87BD /* ThirdViewController.swift */,
 				3FEAA9D02227484600FC87BD /* RandomApp */,
 				3FEAA9E72227484700FC87BD /* RandomAppTests */,
 				3FEAA9F22227484700FC87BD /* RandomAppUITests */,
@@ -103,6 +108,7 @@
 				3FEAA9D32227484600FC87BD /* FirstViewController.swift */,
 				3FEAA9D52227484600FC87BD /* SecondViewController.swift */,
 				3FEAA9D72227484600FC87BD /* Main.storyboard */,
+				3FEAAA07222779F600FC87BD /* Guesser.swift */,
 				3FEAA9DA2227484700FC87BD /* Assets.xcassets */,
 				3FEAA9DC2227484700FC87BD /* LaunchScreen.storyboard */,
 				3FEAA9DF2227484700FC87BD /* Info.plist */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FEAA9D62227484600FC87BD /* SecondViewController.swift in Sources */,
+				3FEAAA08222779F600FC87BD /* Guesser.swift in Sources */,
+				3FEAAA0A222780D000FC87BD /* ThirdViewController.swift in Sources */,
 				3FEAA9D22227484600FC87BD /* AppDelegate.swift in Sources */,
 				3FEAA9D42227484600FC87BD /* FirstViewController.swift in Sources */,
 			);
